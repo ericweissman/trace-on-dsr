@@ -735,7 +735,7 @@ const list = [
       title: 'What It Takes',
       author: 'Richard Ben Cramer',
       short_desc: 'This is as close as you\'ll ever get to running for president.',
-      read: true,
+      read: false,
       description: 'An American Iliad in the guise of contemporary political reportage, What It Takes penetrates the mystery at the heart of all presidential campaigns: How do presumably ordinary people acquire that mixture of ambition, stamina, and pure shamelessness that makes a true candidate? As he recounts the frenzied course of the 1988 presidential race -- and scours the psyches of contenders from George Bush and Robert Dole to Michael Dukakis and Gary Hart -- Pulitzer Prize-winning journalist Richard Ben Cramer comes up with the answers, in a book that is vast, exhaustively researched, exhilarating, and sometimes appalling in its revelations.',
       pages: 1072,
       stars: 4.5,
