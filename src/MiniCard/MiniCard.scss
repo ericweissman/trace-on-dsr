@@ -1,0 +1,33 @@
+.hidden {
+    display:none;
+ }
+ 
+ .mini-book-card {
+   margin: 20px 15px;
+   width: 115px;
+   height: 177px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   justify-content: flex-end;
+   border-radius: 5px;
+   box-shadow: 10px 10px 5px -8px rgba(0,0,0,0.51);
+ }
+ 
+ .buttons {
+   display: flex;
+   justify-content: space-between;
+   position: relative;
+   width: 85%;
+   margin-bottom: 20px;
+   div {
+     opacity: 0.8;
+     &:hover {
+       opacity: 1;
+     }
+   }
+ }
+ 
