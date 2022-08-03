@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import BookArea from '../BookArea/BookArea.js'
+import Library from '../Library/Library.js'
 import { allBooks } from '../list.js'
 
 const App = () => {
@@ -11,7 +12,7 @@ const App = () => {
   }
 
   const unread = books.filter(book => !book.read);
-
+  const read = books.filter(book => book.read).sort((a, b) => a.title.localeCompare(b.title))
 
   return (
     <div className="App">
@@ -19,6 +20,11 @@ const App = () => {
       <BookArea
         books={unread}
         remove={removeBook}
+        library={read}
+      />
+      <Library 
+        library={read}
+        isHidden={true}
       />
     </div>
   )
