@@ -1,6 +1,7 @@
 .button {
     font-family: $title-font;
     font-size: 2em;
+    margin-bottom: 50px;
     color: white;
     div {
         opacity: 0.8;
@@ -14,5 +15,7 @@
     background-color: #040615;
     border-radius: 5px;
     box-shadow: 10px 10px 5px -8px rgba(0,0,0,0.51);
-    margin: 10px;
+    margin-bottom: 20px;
+    margin-right: 35px;
+    margin-left: 35px;
   }
