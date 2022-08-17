@@ -1463,6 +1463,30 @@ const list = [
       buy: 'https://www.amazon.com/Americanah-Chimamanda-Ngozi-Adichie/dp/0307455920',
       img: 'https://images-na.ssl-images-amazon.com/images/I/41DyJ9%2B6-rL._SX322_BO1,204,203,200_.jpg'
     },
+    {
+      title: 'Crossroads',
+      author: 'Jonathan Franzen',
+      short_desc: "Jonathan Franzen’s gift for wedding depth and vividness of character with breadth of social vision has never been more dazzlingly evident than in Crossroads.",
+      read: false,
+      description: "A tour de force of interwoven perspectives and sustained suspense, its action largely unfolding on a single winter day, Crossroads is the story of a Midwestern family at a pivotal moment of moral crisis.", 
+      pages: 592,
+      stars: 4.5,
+      published: 2021,
+      buy: 'https://www.amazon.com/Crossroads-Novel-Key-All-Mythologies/dp/0374181179',
+      img: 'https://images-na.ssl-images-amazon.com/images/I/41DyJ9%2B6-rL._SX322_BO1,204,203,200_.jpg'
+    },
+    {
+      title: 'The Three-Body Problem',
+      author: 'Cixin Liu',
+      short_desc: "'War of the Worlds' for the 21st century.",
+      read: false,
+      description: "A sci-fi masterpiece and one of the best selling Chinese novels of all time. Alien contact against the backdrop of the Chinese Cultural Revolution.", 
+      pages: 416,
+      stars: 4.5,
+      published: 2016,
+      buy: 'https://www.amazon.com/Crossroads-Novel-Key-All-Mythologies/dp/0374181179',
+      img: 'https://images-na.ssl-images-amazon.com/images/I/41DyJ9%2B6-rL._SX322_BO1,204,203,200_.jpg'
+    },
   ]
   
   export const allBooks = list.map((book, i) => {
