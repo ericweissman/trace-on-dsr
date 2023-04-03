@@ -1487,6 +1487,18 @@ const list = [
       buy: 'https://www.amazon.com/Crossroads-Novel-Key-All-Mythologies/dp/0374181179',
       img: 'https://images-na.ssl-images-amazon.com/images/I/41DyJ9%2B6-rL._SX322_BO1,204,203,200_.jpg'
     },
+    {
+      title: 'Infinite Jest',
+      author: 'David Foster Wallace',
+      short_desc: "Prescient. Irreverent. Absurd. Deeply philosophical and endlessly ambitious. David Foster Wallace told his college roommate he wanted to write books that people would be reading in 500 years. This is that book.",
+      read: false,
+      description: "A gargantuan, mind-altering comedy about the pursuit of happiness in America. Set in an addicts' halfway house and a tennis academy, and featuring the most endearingly screwed-up family to come along in recent fiction, Infinite Jest explores essential questions about what entertainment is and why it has come to so dominate our lives; about how our desire for entertainment affects our need to connect with other people; and about what the pleasures we choose say about who we are.", 
+      pages: 1079,
+      stars: 4.5,
+      published: 2006,
+      buy: 'https://www.amazon.com/Crossroads-Novel-Key-All-Mythologies/dp/0374181179',
+      img: 'https://images-na.ssl-images-amazon.com/images/I/41DyJ9%2B6-rL._SX322_BO1,204,203,200_.jpg'
+    },
   ]
   
   export const allBooks = list.map((book, i) => {
