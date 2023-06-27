@@ -1499,6 +1499,30 @@ const list = [
       buy: 'https://www.amazon.com/Crossroads-Novel-Key-All-Mythologies/dp/0374181179',
       img: 'https://images-na.ssl-images-amazon.com/images/I/41DyJ9%2B6-rL._SX322_BO1,204,203,200_.jpg'
     },
+    {
+      title: 'The Beast',
+      author: 'Óscar Martinez',
+      short_desc: "Recommended by Evan Ratliff as a must read.",
+      read: false,
+      description: "The Beast is the first book to shed light on the harsh new reality of the migrant trail in the age of the narcotraficantes.", 
+      pages: 224,
+      stars: 4.5,
+      published: 2014,
+      buy: 'https://www.amazon.com/Crossroads-Novel-Key-All-Mythologies/dp/0374181179',
+      img: 'https://images-na.ssl-images-amazon.com/images/I/41DyJ9%2B6-rL._SX322_BO1,204,203,200_.jpg'
+    },
+    {
+      title: 'The Passenger + Stella Maris',
+      author: 'Cormac McCarthy',
+      short_desc: "The final tales by one of America's greatest authors.",
+      read: false,
+      description: "Traversing the American South, from the garrulous barrooms of New Orleans to an abandoned oil rig off the Florida coast, The Passenger is a breathtaking novel of morality and science, the legacy of sin, and the madness that is human consciousness.", 
+      pages: 400/208,
+      stars: 4.5,
+      published: 2022,
+      buy: 'https://www.amazon.com/Crossroads-Novel-Key-All-Mythologies/dp/0374181179',
+      img: 'https://images-na.ssl-images-amazon.com/images/I/41DyJ9%2B6-rL._SX322_BO1,204,203,200_.jpg'
+    },
   ]
   
   export const allBooks = list.map((book, i) => {
