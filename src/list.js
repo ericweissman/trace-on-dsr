@@ -8,8 +8,6 @@ const list = [
       pages: 176,
       stars: 4,
       published: 1989,
-      buy: 'https://www.amazon.com/What-Talk-About-When-Love/dp/0679723056',
-      img: 'https://m.media-amazon.com/images/I/91-gr7kPT7L._AC_UY436_FMwebp_QL65_.jpg'
     },
     {
       title: 'Collected Stories of John Cheever',
@@ -20,8 +18,6 @@ const list = [
       pages: 704,
       stars: 4.5,
       published: 1978,
-      buy: 'https://www.amazon.com/Stories-John-Cheever/dp/0375724427',
-      img: 'https://m.media-amazon.com/images/I/71wGYObIDxL._AC_UY436_FMwebp_QL65_.jpg'
     },
     {
       title: 'Deliverance',
@@ -32,8 +28,6 @@ const list = [
       pages: 278,
       stars: 4.5,
       published: 1970,
-      buy: 'https://www.amazon.com/Deliverance-Modern-Library-Best-Novels/dp/038531387X',
-      img: 'https://m.media-amazon.com/images/I/91Vh2ThmMfL._AC_UY436_FMwebp_QL65_.jpg'
     },
     {
       title: 'The Grapes of Wrath',
@@ -44,8 +38,6 @@ const list = [
       pages: 215,
       stars: 4.5,
       published: 1939,
-      buy: 'https://www.amazon.com/Grapes-Wrath-John-Steinbeck-ebook/dp/B001BKTEZA',
-      img: 'https://m.media-amazon.com/images/I/81qGISyJrQL._AC_UY436_FMwebp_QL65_.jpg'
     },
     {
       title: 'Blood Meridian',
@@ -56,8 +48,7 @@ const list = [
       pages: 368,
       stars: 4,
       published: 1985,
-      buy: 'https://www.amazon.com/Blood-Meridian-Evening-Redness-West/dp/0679728759',
-      img: 'https://m.media-amazon.com/images/I/61LZoIp5VXL._AC_UY436_FMwebp_QL65_.jpg'
+ 
     },
     {
       title: 'The Brothers Karamazov',
@@ -67,177 +58,147 @@ const list = [
       description: 'The Brothers Karamasov is a murder mystery, a courtroom drama, and an exploration of erotic rivalry in a series of triangular love affairs involving the “wicked and sentimental” Fyodor Pavlovich Karamazov and his three sons―the impulsive and sensual Dmitri; the coldly rational Ivan; and the healthy, red-cheeked young novice Alyosha. Through the gripping events of their story, Dostoevsky portrays the whole of Russian life, is social and spiritual striving, in what was both the golden age and a tragic turning point in Russian culture.',
       pages: 824,
       stars: 4.5,
-      published: 1880,
-      buy: 'https://www.amazon.com/Brothers-Karamazov-Fyodor-Dostoevsky/dp/0374528373',
-      img: 'https://m.media-amazon.com/images/I/8117HB7WbvL._AC_UY436_FMwebp_QL65_.jpg'
+      published: 1880
     },
     {
       title: 'The Known World',
       author: 'Edward P. Jones',
-      short_desc: 'Free black people who own slaves. Slaves who know the world\'s brutality and, more shockingly, its beauty.',
+      short_desc: "Free black people who own slaves. Slaves who know the world's brutality and, more shockingly, its beauty.",
       read: true,
-      description: 'The Known World tells the story of Henry Townsend, a black farmer and former slave who falls under the tutelage of William Robbins, the most powerful man in Manchester County, Virginia. Making certain he never circumvents the law, Townsend runs his affairs with unusual discipline. But when death takes him unexpectedly, his widow, Caldonia, can\'t uphold the estate\'s order, and chaos ensues. Jones has woven a footnote of history into an epic that takes an unflinching look at slavery in all its moral complexities.',
+      description: "The Known World tells the story of Henry Townsend, a black farmer and former slave who falls under the tutelage of William Robbins, the most powerful man in Manchester County, Virginia. Making certain he never circumvents the law, Townsend runs his affairs with unusual discipline. But when death takes him unexpectedly, his widow, Caldonia, can't uphold the estate's order, and chaos ensues. Jones has woven a footnote of history into an epic that takes an unflinching look at slavery in all its moral complexities.",
       pages: 432,
       stars: 4,
-      published: 2003,
-      buy: 'https://www.amazon.com/Known-World-Edward-Jones-2003-09-03/dp/B01FIWPGUS',
-      img: 'https://m.media-amazon.com/images/I/716dxJ7G-BL._AC_UY436_FMwebp_QL65_.jpg'
+      published: 2003
     },
     {
       title: 'The Good War',
       author: 'Studs Terkel',
-      short_desc: 'All you\'ll ever need to know about men, women, war, peace, work, home, and just who the people called Americans really are.',
+      short_desc: "All you'll ever need to know about men, women, war, peace, work, home, and just who the people called Americans really are.",
       read: false,
       description: '“The Good War”, for which Studs Terkel won the Pulitzer Prize, is a testament not only to the experience of war but to the extraordinary skill of Terkel as interviewer. As always, his subjects are open and unrelenting in their analyses of themselves and their experiences, producing what People magazine has called “a splendid epic history of World War II.” With this volume Terkel expanded his scope to the global and the historical, and the result is a masterpiece of oral history.',
       pages: 608,
       stars: 4.5,
-      published: 1984,
-      buy: 'https://www.amazon.com/Good-War-Oral-History-World/dp/1565843436',
-      img: 'https://m.media-amazon.com/images/I/61e1kXJf2jL._AC_UY436_FMwebp_QL65_.jpg'
+      published: 1984
     },
     {
       title: 'American Pastoral',
       author: 'Philip Roth',
-      short_desc: 'One of the few not about Roth. It\'s about that guy you idolized in high school. And gloves. And you.',
+      short_desc: "One of the few not about Roth. It's about that guy you idolized in high school. And gloves. And you.",
       read: false,
-      description: 'Here is Philip Roth\'s masterpiece—an elegy for the American century\'s promises of prosperity, civic order, and domestic bliss. Roth\'s protagonist is Swede Levov, a legendary athlete at his Newark high school, who grows up in the booming postwar years to marry a former Miss New Jersey, inherit his father\'s glove factory, and move into a stone house in the idyllic hamlet of Old Rimrock. And then one day in 1968, Swede\'s beautiful American luck deserts him. For Swede\'s adored daughter, Merry, has grown from a loving, quick-witted girl into a sullen, fanatical teenager—a teenager capable of an outlandishly savage act of political terrorism. And overnight Swede is wrenched out of the longed-for American pastoral and into the indigenous American berserk. Compulsively readable, propelled by sorrow, rage, and a deep compassion for its characters, American Pastoral gives us Philip Roth at the height of his powers.',
+      description: "Here is Philip Roth's masterpiece—an elegy for the American century's promises of prosperity, civic order, and domestic bliss. Roth's protagonist is Swede Levov, a legendary athlete at his Newark high school, who grows up in the booming postwar years to marry a former Miss New Jersey, inherit his father's glove factory, and move into a stone house in the idyllic hamlet of Old Rimrock. And then one day in 1968, Swede's beautiful American luck deserts him. For Swede's adored daughter, Merry, has grown from a loving, quick-witted girl into a sullen, fanatical teenager—a teenager capable of an outlandishly savage act of political terrorism. And overnight Swede is wrenched out of the longed-for American pastoral and into the indigenous American berserk. Compulsively readable, propelled by sorrow, rage, and a deep compassion for its characters, American Pastoral gives us Philip Roth at the height of his powers.",
       pages: 423,
       stars: 4,
-      published: 1997,
-      buy: 'https://www.amazon.com/American-Pastoral-Trilogy-Vintage-International/dp/0375701427',
-      img: 'https://m.media-amazon.com/images/I/41W5dk4ZlqL._AC_UY436_FMwebp_QL65_.jpg'
+      published: 1997
     },
     {
       title: 'A Good Man Is Hard to Find and Other Stories',
-      author: 'Flannery O\'Connor',
-      short_desc: 'She would of been a good woman... if it had been somebody there to shoot her every minute of her life. Wouldn\'t we all.',
+      author: "Flannery O'Connor",
+      short_desc: "She would of been a good woman... if it had been somebody there to shoot her every minute of her life. Wouldn't we all.",
       read: true,
-      description: 'In 1955, with this short story collection, Flannery O\'Connor firmly laid claim to her place as one of the most original and provocative writers of her generation. Steeped in a Southern Gothic tradition that would become synonymous with her name, these stories show O\'Connor\'s unique, grotesque view of life-- infused with religious symbolism, haunted by apocalyptic possibility, sustained by the tragic comedy of human behavior, confronted by the necessity of salvation.',
+      description: "In 1955, with this short story collection, Flannery O'Connor firmly laid claim to her place as one of the most original and provocative writers of her generation. Steeped in a Southern Gothic tradition that would become synonymous with her name, these stories show O'Connor's unique, grotesque view of life-- infused with religious symbolism, haunted by apocalyptic possibility, sustained by the tragic comedy of human behavior, confronted by the necessity of salvation.",
       pages: 276,
       stars: 4,
-      published: 1955,
-      buy: 'https://www.amazon.com/Good-Hard-Find-Other-Stories/dp/0156364654',
-      img: 'https://m.media-amazon.com/images/I/81l7-WU3LHL._AC_UY327_FMwebp_QL65_.jpg'
+      published: 1955
     },
     {
       title: 'The Things They Carried',
-      author: 'Tim O\'Brien',
+      author: "Tim O'Brien",
       short_desc: 'No one else has written so beautifully about human remains hanging from tree branches.',
       read: false,
       description: 'A classic work of American literature that has not stopped changing minds and lives since it burst onto the literary scene, The Things They Carried is a ground-breaking meditation on war, memory, imagination, and the redemptive power of storytelling.',
       pages: 233,
       stars: 4.5,
-      published: 1990,
-      buy: 'https://www.amazon.com/Things-They-Carried-Tim-OBrien/dp/0618706410',
-      img: 'https://m.media-amazon.com/images/I/81IFvIcsZNL._AC_UY327_FMwebp_QL65_.jpg'
+      published: 1990
     },
     {
       title: 'A Sport and a Pastime',
       author: 'James Salter',
-      short_desc: 'Remember your college buddy\'s girlfriend, the one you were in love with? Because of her.',
+      short_desc: "Remember your college buddy's girlfriend, the one you were in love with? Because of her.",
       read: false,
-      description: 'Set in provincial France in the 1960s, James Salter\'s A Sport and a Pastime is the intensely carnal story―part shocking reality, part feverish dream ―of a love affair between a footloose Yale dropout and a young French girl. There is the seen and the unseen―and pages that burn with a rare intensity.',
+      description: "Set in provincial France in the 1960s, James Salter's A Sport and a Pastime is the intensely carnal story―part shocking reality, part feverish dream ―of a love affair between a footloose Yale dropout and a young French girl. There is the seen and the unseen―and pages that burn with a rare intensity.",
       pages: 208,
       stars: 4,
-      published: 1967,
-      buy: 'https://www.amazon.com/Sport-Pastime-Novel-FSG-Classics/dp/0374530505',
-      img: 'https://m.media-amazon.com/images/I/91Th9APwCWL._AC_UY327_FMwebp_QL65_.jpg'
+      published: 1967
     },
     {
       title: 'The Call of the Wild',
       author: 'Jack London',
       short_desc: 'A book about dogs is equally a book about men.',
       read: false,
-      description: 'The Call of the Wild, considered by many London\'s greatest novel, is a gripping tale of a heroic dog that, thrust into the brutal life of the Alaska Gold Rush, ultimately faces a choice between living in man\'s world and returning to nature. Adventure and dog-story enthusiasts as well as students and devotees of American literature will find this classic work a thrilling, memorable reading experience.',
+      description: "The Call of the Wild, considered by many London's greatest novel, is a gripping tale of a heroic dog that, thrust into the brutal life of the Alaska Gold Rush, ultimately faces a choice between living in man's world and returning to nature. Adventure and dog-story enthusiasts as well as students and devotees of American literature will find this classic work a thrilling, memorable reading experience.",
       pages: null,
       stars: 4.5,
-      published: 1903,
-      buy: 'https://www.amazon.com/Call-Wild-Jack-London/dp/0486264726',
-      img: 'https://m.media-amazon.com/images/I/71WsAFRXwdL._AC_UY327_FMwebp_QL65_.jpg'
+      published: 1903
     },
     {
-      title: 'Time\'s Arrow',
+      title: "Time's Arrow",
       author: 'Martin Amis',
-      short_desc: 'You\'ve never seen the Holocaust from this angle and with this much ferocity. Backwards.',
+      short_desc: "You've never seen the Holocaust from this angle and with this much ferocity. Backwards.",
       read: true,
-      description: 'In Time\'s Arrow the doctor Tod T. Friendly dies and then feels markedly better, breaks up with his lovers as a prelude to seducing them, and mangles his patients before he sends them home. And all the while Tod\'s life races backward toward the one appalling moment in modern history when such reversals make sense.',
+      description: "In Time's Arrow the doctor Tod T. Friendly dies and then feels markedly better, breaks up with his lovers as a prelude to seducing them, and mangles his patients before he sends them home. And all the while Tod's life races backward toward the one appalling moment in modern history when such reversals make sense.",
       pages: 176,
       stars: 4,
-      published: 1991,
-      buy: 'https://www.amazon.com/Times-Arrow-Martin-Amis/dp/0679735720',
-      img: 'https://m.media-amazon.com/images/I/71P0szqX76L._AC_UY327_FMwebp_QL65_.jpg'
+      published: 1991
     },
     {
       title: 'A Sense of Where You Are',
       author: 'John McPhee',
-      short_desc: 'It\'s about how two men can be made better just by sharing each other\'s company.',
+      short_desc: "It's about how two men can be made better just by sharing each other's company.",
       read: false,
-      description: 'When John McPhee met Bill Bradley, both were at the beginning of their careers. A Sense of Where You Are, McPhee\'s first book, is about Bradley when he was the best basketball player Princeton had ever seen. McPhee delineates for the reader the training and techniques that made Bradley the extraordinary athlete he was, and this part of the book is a blueprint of superlative basketball. But athletic prowess alone would not explain Bradley\'s magnetism, which is in the quality of the man himself―his self-discipline, his rationality, and his sense of responsibility. Here is a portrait of Bradley as he was in college, before his time with the New York Knicks and his election to the U.S. Senate―a story that suggests the abundant beginnings of his professional careers in sport and politics.',
+      description: "When John McPhee met Bill Bradley, both were at the beginning of their careers. A Sense of Where You Are, McPhee's first book, is about Bradley when he was the best basketball player Princeton had ever seen. McPhee delineates for the reader the training and techniques that made Bradley the extraordinary athlete he was, and this part of the book is a blueprint of superlative basketball. But athletic prowess alone would not explain Bradley's magnetism, which is in the quality of the man himself―his self-discipline, his rationality, and his sense of responsibility. Here is a portrait of Bradley as he was in college, before his time with the New York Knicks and his election to the U.S. Senate―a story that suggests the abundant beginnings of his professional careers in sport and politics.",
       pages: 240,
       stars: 4.5,
-      published: 1999,
-      buy: 'https://www.amazon.com/Sense-Where-You-Are-Princeton/dp/0374526893',
-      img: 'https://m.media-amazon.com/images/I/41DDsjYutJL._AC_UY327_FMwebp_QL65_.jpg'
+      published: 1999
     },
     {
-      title: 'Hell\'s Angels',
+      title: "Hell's Angels",
       author: 'Hunter S. Thompson',
-      short_desc: 'Because it\'s his first book, and because he got his ass kicked for it, and because in the book and the beating were the seeds of all that came after, including the bullet in the head.',
+      short_desc: "Because it's his first book, and because he got his ass kicked for it, and because in the book and the beating were the seeds of all that came after, including the bullet in the head.",
       read: true,
       description: 'Thus begins Hunter S. Thompson’s vivid account of his experiences with California’s most notorious motorcycle gang, the Hell’s Angels. In the mid-1960s, Thompson spent almost two years living with the controversial Angels, cycling up and down the coast, reveling in the anarchic spirit of their clan, and, as befits their name, raising hell. His book successfully captures a singular moment in American history, when the biker lifestyle was first defined, and when such countercultural movements were electrifying and horrifying America.',
       pages: null,
       stars: 4,
-      published: 1967,
-      buy: 'https://www.amazon.com/Hells-Angels-Strange-Terrible-Saga/dp/0345410084',
-      img: 'https://m.media-amazon.com/images/I/519QtDWn1bL._AC_UY327_FMwebp_QL65_.jpg'
+      published: 1967
     },
     {
       title: 'Invisible Man',
       author: 'Ralph Ellison',
       short_desc: 'Born in an epic fist-fight or forgotten in the sewers, no character is as clearly heard as the man who is never really seen by the world around him.',
       read: false,
-      description: 'The nameless narrator of the novel describes growing up in a black community in the South, attending a Negro college from which he is expelled, moving to New York and becoming the chief spokesman of the Harlem branch of \'the Brotherhood\', and retreating amid violence and confusion to the basement lair of the Invisible Man he imagines himself to be.',
+      description: "The nameless narrator of the novel describes growing up in a black community in the South, attending a Negro college from which he is expelled, moving to New York and becoming the chief spokesman of the Harlem branch of 'the Brotherhood', and retreating amid violence and confusion to the basement lair of the Invisible Man he imagines himself to be.",
       pages: 581,
       stars: 4.5,
-      published: 1952,
-      buy: 'https://www.amazon.com/Invisible-Man-Ralph-Ellison/dp/0679732764',
-      img: 'https://m.media-amazon.com/images/I/71aeF1gCqxL._AC_UY327_FMwebp_QL65_.jpg'
+      published: 1952
     },
     {
       title: 'Dubliners',
       author: 'James Joyce',
-      short_desc: 'Plain and simple: \'The Dead\'',
+      short_desc: "Plain and simple: 'The Dead'",
       read: false,
       description: 'James Joyce’s Dubliners is a vivid and unflinching portrait of “dear dirty Dublin” at the turn of the twentieth century. These fifteen stories, including such unforgettable ones as “Araby,” “Grace,” and “The Dead,” delve into the heart of the city of Joyce’s birth, capturing the cadences of Dubliners’ speech and portraying with an almost brute realism their outer and inner lives.',
       pages: 368,
       stars: 4,
-      published: 1914,
-      buy: 'https://www.amazon.com/Dubliners-James-Joyce/dp/0140186476',
-      img: 'https://m.media-amazon.com/images/I/51sNJcrwt0L._AC_UY327_FMwebp_QL65_.jpg'
+      published: 1914
     },
     {
       title: 'Rabbit, Run',
       author: 'John Updike',
-      short_desc: 'Because it\'s one of the few not about Updike. It\'s about that guy you idolized in high school. And kitchen gadgets. And you.',
+      short_desc: "Because it's one of the few not about Updike. It's about that guy you idolized in high school. And kitchen gadgets. And you.",
       read: true,
       description: 'Rabbit, Run is the book that established John Updike as one of the major American novelists of his—or any other—generation. Its hero is Harry “Rabbit” Angstrom, a onetime high-school basketball star who on an impulse deserts his wife and son. He is twenty-six years old, a man-child caught in a struggle between instinct and thought, self and society, sexual gratification and family duty—even, in a sense, human hard-heartedness and divine Grace. Though his flight from home traces a zigzag of evasion, he holds to the faith that he is on the right path, an invisible line toward his own salvation as straight as a ruler’s edge.',
       pages: 336,
       stars: 4,
-      published: 1960,
-      buy: 'https://www.amazon.com/Rabbit-Run-John-Updike/dp/0449911659',
-      img: 'https://m.media-amazon.com/images/I/81mTQ63svmL._AC_UY327_FMwebp_QL65_.jpg'
+      published: 1960
     },
     {
       title: 'The Postman Always Rings Twice',
       author: 'James M. Cain',
-      short_desc: 'Teaches men about women. Also, there\'s not a single postman in the book.',
+      short_desc: "Teaches men about women. Also, there's not a single postman in the book.",
       read: false,
       description: 'An amoral young tramp. A beautiful, sullen woman with an inconvenient husband. A problem that has only one grisly solution--a solution that only creates other problems that no one can ever solve.',
       pages: 116,
       stars: 4.5,
-      published: 1934,
-      buy: 'https://www.amazon.com/Postman-Always-Rings-Twice/dp/0679723250',
-      img:'https://m.media-amazon.com/images/I/91ZgyCZhmDL._AC_UY327_FMwebp_QL65_.jpg'
+      published: 1934
     },
     {
       title: 'Dog Soldiers',
@@ -260,8 +221,6 @@ const list = [
       pages: 224,
       stars: 4.5,
       published: 2007,
-      buy: 'https://www.amazon.com/Winters-Bone-Daniel-Woodrell/dp/0316066419',
-      img: 'https://m.media-amazon.com/images/I/41iEVPkP1sL._AC_UY327_FMwebp_QL65_.jpg'
     },
     {
       title: 'Legends of the Fall',
@@ -272,8 +231,6 @@ const list = [
       pages: 288,
       stars: 4.5,
       published: 1979,
-      buy: 'https://www.amazon.com/Legends-Fall-Jim-Harrison/dp/0802126227',
-      img: 'https://m.media-amazon.com/images/I/61nbzl8RN3L._AC_UY327_FMwebp_QL65_.jpg'
     },
     {
       title: 'Under the Volcano',
@@ -284,8 +241,6 @@ const list = [
       pages: 448,
       stars: 3.5,
       published: 1947,
-      buy: 'https://www.amazon.com/Under-Volcano-Novel-Malcolm-Lowry/dp/0061120154',
-      img: 'https://m.media-amazon.com/images/I/71kMCMtKDvL._AC_UY327_FMwebp_QL65_.jpg'
     },
     {
       title: 'The Naked and the Dead',
@@ -296,8 +251,6 @@ const list = [
       pages: 736,
       stars: 4,
       published: 1948,
-      buy: 'https://www.amazon.com/Naked-Dead-50th-Anniversary/dp/0312265050',
-      img: 'https://m.media-amazon.com/images/I/51IdZ6X9FZL._AC_UY327_FMwebp_QL65_.jpg'
     },
     {
       title: 'The Professional',
@@ -308,8 +261,6 @@ const list = [
       pages: 334,
       stars: 4.5,
       published: 1958,
-      buy: 'https://www.amazon.com/Professional-W-C-Heinz/dp/0306810581',
-      img: 'https://m.media-amazon.com/images/I/61mH13VeSXL._AC_UY327_FMwebp_QL65_.jpg'
     },
     {
       title: 'For Whom the Bell Tolls',
@@ -320,8 +271,6 @@ const list = [
       pages: 480,
       stars: 4,
       published: 1940,
-      buy: 'https://www.amazon.com/Whom-Bell-Tolls-Ernest-Hemingway/dp/0684803356',
-      img: 'https://m.media-amazon.com/images/I/71huFMKlLTL._AC_UY327_FMwebp_QL65_.jpg'
     },
     {
       title: 'Dispatches',
@@ -332,8 +281,6 @@ const list = [
       pages: 272,
       stars: 4.5,
       published: 1977,
-      buy: 'https://www.amazon.com/Dispatches-Michael-Herr/dp/0679735259',
-      img: 'https://m.media-amazon.com/images/I/81F02iUKiGL._AC_UY327_FMwebp_QL65_.jpg'
     },
     {
       title: 'Tropic of Cancer',
@@ -344,8 +291,6 @@ const list = [
       pages: 328,
       stars: 3.5,
       published: 1934,
-      buy: 'https://www.amazon.com/Tropic-Cancer-Henry-Miller/dp/1614278628',
-      img: 'https://m.media-amazon.com/images/I/71K4LxaQHgL._AC_UY327_FMwebp_QL65_.jpg'
     },
     {
       title: 'Revolutionary Road',
@@ -356,8 +301,6 @@ const list = [
       pages: 355,
       stars: 4,
       published: 1961,
-      buy: 'https://www.amazon.com/Revolutionary-Road-Richard-Yates/dp/0375708448',
-      img: 'https://m.media-amazon.com/images/I/71LjKP3VHwL._AC_UY327_FMwebp_QL65_.jpg'
     },
     {
       title: 'As I Lay Dying',
@@ -368,8 +311,6 @@ const list = [
       pages: 267,
       stars: 4,
       published: 1930,
-      buy: 'https://www.amazon.com/As-Lay-Dying-Corrected-Text/dp/067973225X',
-      img: 'https://m.media-amazon.com/images/I/91yR2PB+2KL._AC_UY327_FMwebp_QL65_.jpg'
     },
     {
       title: 'The Killer Angels',
@@ -380,8 +321,6 @@ const list = [
       pages: 355,
       stars: 4.5,
       published: 1987,
-      buy: 'https://www.amazon.com/Killer-Angels-Classic-Novel-Trilogy/dp/0345348109',
-      img: 'https://m.media-amazon.com/images/I/81aeKUe8OQL._AC_UY327_FMwebp_QL65_.jpg'
     },
     {
       title: 'Slaughterhouse-Five',
@@ -392,8 +331,6 @@ const list = [
       pages: 288,
       stars: 4,
       published: 1969,
-      buy: 'https://www.amazon.com/Slaughterhouse-Five-Novel-Modern-Library-Novels/dp/0385333846',
-      img: 'https://m.media-amazon.com/images/I/71QcX1DbklL._AC_UY327_FMwebp_QL65_.jpg'
     },
     {
       title: 'All the King\'s Men',
@@ -404,8 +341,6 @@ const list = [
       pages: 656,
       stars: 4,
       published: 1946,
-      buy: 'https://www.amazon.com/All-Kings-Robert-Penn-Warren/dp/0156012952',
-      img: 'https://m.media-amazon.com/images/I/61vwRk6+a7L._AC_UY327_FMwebp_QL65_.jpg'
     },
     {
       title: 'One Flew Over the Cuckoo\'s Nest',
@@ -416,8 +351,6 @@ const list = [
       pages: 272,
       stars: 4.5,
       published: 1962,
-      buy: 'https://www.amazon.com/One-Flew-Over-Cuckoos-Nest/dp/0451163966',
-      img: 'https://m.media-amazon.com/images/I/91QerkARMLL._AC_UY327_FMwebp_QL65_.jpg'
     },
     {
       title: 'Sophie\'s Choice',
@@ -428,8 +361,6 @@ const list = [
       pages: 575,
       stars: 4,
       published: 1979,
-      buy: 'https://www.amazon.com/Sophies-Choice-Novel-Open-Road-ebook/dp/B003JBFCEQ',
-      img: 'https://m.media-amazon.com/images/I/A1clDrL3tRL._AC_UY327_FMwebp_QL65_.jpg'
     },
     {
       title: 'A Fan\'s Notes',
@@ -440,8 +371,6 @@ const list = [
       pages: 385,
       stars: 4,
       published: 1968,
-      buy: 'https://www.amazon.com/Fans-Notes-Frederick-Exley/dp/0679720766',
-      img: 'https://m.media-amazon.com/images/I/41G0dEFNj2L._AC_UY327_FMwebp_QL65_.jpg'
     },
     {
       title: 'Lucky Jim',
@@ -452,8 +381,6 @@ const list = [
       pages: 296,
       stars: 4,
       published: 1954,
-      buy: 'https://www.amazon.com/Lucky-York-Review-Books-Classics/dp/1590175751',
-      img: 'https://m.media-amazon.com/images/I/91iDiatnJ8L._AC_UY327_FMwebp_QL65_.jpg'
     },
     {
       title: 'The Wind-Up Bird Chronicle',
@@ -464,8 +391,6 @@ const list = [
       pages: 607,
       stars: 4,
       published: 1998,
-      buy: 'https://www.amazon.com/Wind-Up-Bird-Chronicle-Novel/dp/0679775439',
-      img:'https://m.media-amazon.com/images/I/A193XMHdJaL._AC_UY327_FMwebp_QL65_.jpg'
     },
     {
       title: 'Master and Commander',
@@ -476,8 +401,6 @@ const list = [
       pages: 457,
       stars: 4,
       published: 1969,
-      buy: 'https://www.amazon.com/Master-Commander-Aubrey-Maturin-Novels-ebook/dp/B006C3Q6GG',
-      img: 'https://m.media-amazon.com/images/I/5126uOn5QHL._AC_UY327_FMwebp_QL65_.jpg'
     },
     {
       title: 'Plainsong',
@@ -488,8 +411,6 @@ const list = [
       pages: 301,
       stars: 4.5,
       published: 2000,
-      buy: 'https://www.amazon.com/Plainsong-Kent-Haruf/dp/0375705856',
-      img: 'https://m.media-amazon.com/images/I/71qicE8NtwL._AC_UY327_FMwebp_QL65_.jpg'
     },
     {
       title: 'A Confederacy of Dunces',
@@ -500,8 +421,6 @@ const list = [
       pages: 405,
       stars: 4,
       published: 1987,
-      buy: 'https://www.amazon.com/Confederacy-Dunces-John-Kennedy-Toole/dp/0802130208',
-      img: 'https://m.media-amazon.com/images/I/51Jf7QzmW3L._AC_UY327_FMwebp_QL65_.jpg'
     },
     {
       title: 'Affliction',
@@ -512,8 +431,6 @@ const list = [
       pages: 355,
       stars: 4,
       published: 1990,
-      buy: 'https://www.amazon.com/Affliction-Russell-Banks/dp/0060920076',
-      img: 'https://m.media-amazon.com/images/I/51+isWeIu6L._AC_UY327_FMwebp_QL65_.jpg'
     },
     {
       title: 'This Boy\'s Life',
@@ -524,8 +441,6 @@ const list = [
       pages: 304,
       stars: 4,
       published: 1989,
-      buy: 'https://www.amazon.com/This-Boys-Life-Tobias-Wolff/dp/0802136680',
-      img: 'https://m.media-amazon.com/images/I/710PXCTCJ6L._AC_UY327_FMwebp_QL65_.gif'
     },
     {
       title: 'The Adventures of Augie March',
@@ -536,8 +451,6 @@ const list = [
       pages: 608,
       stars: 4,
       published: 1953,
-      buy: 'https://www.amazon.com/Adventures-Augie-March-Penguin-Classics/dp/0143039571',
-      img: 'https://m.media-amazon.com/images/I/81zRRuDk9BL._AC_UY327_FMwebp_QL65_.jpg'
     },
     {
       title: 'Women',
@@ -548,8 +461,6 @@ const list = [
       pages: 304,
       stars: 4,
       published: 1978,
-      buy: 'https://www.amazon.com/Women-Novel-Charles-Bukowski/dp/0061177598',
-      img: 'https://m.media-amazon.com/images/I/51eHH+J0cTL._AC_UY327_FMwebp_QL65_.jpg'
     },
     {
       title: 'Going Native',
@@ -560,8 +471,6 @@ const list = [
       pages: 320,
       stars: 3.5,
       published: 2005,
-      buy: 'https://www.amazon.com/Going-Native-Stephen-Wright/dp/140007942X',
-      img: 'https://m.media-amazon.com/images/I/81VFpJTZYTL._AC_UY327_FMwebp_QL65_.jpg'
     },
     {
       title: 'Heart of Darkness',
@@ -572,8 +481,6 @@ const list = [
       pages: 78,
       stars: 4,
       published: 1899,
-      buy: 'https://www.amazon.com/Heart-Darkness-Joseph-Conrad/dp/1503275922',
-      img: 'https://m.media-amazon.com/images/I/51bVflUAtcL._AC_UY327_FMwebp_QL65_.jpg'
     },
     {
       title: 'The Spy Who Came In From The Cold',
@@ -584,8 +491,6 @@ const list = [
       pages: 240,
       stars: 4.5,
       published: 1963,
-      buy: 'https://www.amazon.com/Spy-Who-Came-Cold-George/dp/0143124757',
-      img: 'https://m.media-amazon.com/images/I/81+al23-IAL._AC_UY327_FMwebp_QL65_.jpg'
     },
     {
       title: 'The Crack-Up',
@@ -596,8 +501,6 @@ const list = [
       pages: 352,
       stars: 4.5,
       published: 1936,
-      buy: 'https://www.amazon.com/Crack-Up-F-Scott-Fitzgerald/dp/0811218201',
-      img: 'https://m.media-amazon.com/images/I/51QNwVP0nwL._AC_UY327_FMwebp_QL65_.jpg'
     },
     {
       title: 'CivilWarLand in Bad Decline',
@@ -608,8 +511,6 @@ const list = [
       pages: 224,
       stars: 4,
       published: 1996,
-      buy: 'https://www.amazon.com/CivilWarLand-Bad-Decline-Stories-Novella/dp/0812987683',
-      img: 'https://m.media-amazon.com/images/I/81YXuXEq+hL._AC_UY327_FMwebp_QL65_.jpg'
     },
     {
       title: 'War and Peace',
@@ -620,8 +521,6 @@ const list = [
       pages: 1296,
       stars: 4.5,
       published: 1867,
-      buy: 'https://www.amazon.com/War-Peace-Vintage-Classics-Tolstoy/dp/1400079985',
-      img: 'https://m.media-amazon.com/images/I/71WU-WzHShL._AC_UY327_FMwebp_QL65_.jpg'
     },
     {
       title: 'The Shining',
@@ -632,8 +531,6 @@ const list = [
       pages: 674,
       stars: 4.5,
       published: 1977,
-      buy: 'https://www.amazon.com/Shining-Stephen-King-ebook/dp/B001BANK32',
-      img: 'https://m.media-amazon.com/images/I/814liu57+VL._AC_UY327_FMwebp_QL65_.jpg'
     },
     {
       title: 'Winesburg, Ohio',
@@ -644,8 +541,6 @@ const list = [
       pages: 140,
       stars: 4,
       published: 1919,
-      buy: 'https://www.amazon.com/Winesburg-Ohio-Introduction-Ernest-Boyd/dp/1420955888',
-      img: 'https://m.media-amazon.com/images/I/51UDQDCf03L._AC_UY327_FMwebp_QL65_.jpg'
     },
     {
       title: 'Moby Dick',
@@ -656,8 +551,6 @@ const list = [
       pages: 378,
       stars: 4,
       published: 1851,
-      buy: 'https://www.amazon.com/Moby-Dick-Herman-Melville/dp/1503280780',
-      img: 'https://m.media-amazon.com/images/I/41VnFKC9srL._AC_UY327_FMwebp_QL65_.jpg'
     },
     {
       title: 'Midnight\'s Children',
@@ -668,8 +561,6 @@ const list = [
       pages: 536,
       stars: 4,
       published: 1981,
-      buy: 'https://www.amazon.com/Midnights-Children-Modern-Library-Novels/dp/0812976533',
-      img: 'https://m.media-amazon.com/images/I/81mOnJxoDTL._AC_UY327_FMwebp_QL65_.jpg'
     },
     {
       title: 'Labyrinths',
@@ -680,8 +571,6 @@ const list = [
       pages: 240,
       stars: 4.5,
       published: 1962,
-      buy: 'https://www.amazon.com/Labyrinths-Directions-Paperbook-Jorge-Borges/dp/0811216993',
-      img: 'https://m.media-amazon.com/images/I/51d0qU2MMlL._AC_UY327_FMwebp_QL65_.jpg'
     },
     {
       title: 'The Right Stuff',
@@ -692,8 +581,6 @@ const list = [
       pages: 352,
       stars: 4.5,
       published: 1979,
-      buy: 'https://www.amazon.com/Right-Stuff-Tom-Wolfe/dp/0312427565',
-      img: 'https://m.media-amazon.com/images/I/41ooH0f0ASL._AC_UY327_FMwebp_QL65_.jpg'
     },
     {
       title: 'The Sportswriter',
@@ -704,8 +591,6 @@ const list = [
       pages: 375,
       stars: 3,
       published: 1986,
-      buy: 'https://www.amazon.com/Sportswriter-Bascombe-Trilogy-1/dp/0679762108',
-      img: 'https://m.media-amazon.com/images/I/91Dg8z5diEL._AC_UY327_FMwebp_QL65_.jpg'
     },
     {
       title: 'American Tabloid',
@@ -716,8 +601,6 @@ const list = [
       pages: 592,
       stars: 4,
       published: 1995,
-      buy: 'https://www.amazon.com/American-Tabloid-James-Ellroy/dp/037572737X',
-      img: 'https://m.media-amazon.com/images/I/81BDOIDDVoL._AC_UY327_FMwebp_QL65_.jpg'
     },
     {
       title: 'The Autobiography of Malcolm X',
@@ -728,8 +611,6 @@ const list = [
       pages: 460,
       stars: 5,
       published: 1964,
-      buy: 'https://www.amazon.com/Autobiography-Malcolm-Told-Alex-Haley/dp/0345350685',
-      img: 'https://m.media-amazon.com/images/I/81kQBRCqt-L._AC_UY327_FMwebp_QL65_.jpg'
     },
     {
       title: 'What It Takes',
@@ -740,8 +621,6 @@ const list = [
       pages: 1072,
       stars: 4.5,
       published: 1993,
-      buy: 'https://www.amazon.com/What-Takes-Way-White-House/dp/0679746498',
-      img: 'https://m.media-amazon.com/images/I/A1-h2jLFg8L._AC_UY327_FMwebp_QL65_.jpg'
     },
     {
       title: 'The Continental Op',
@@ -752,8 +631,6 @@ const list = [
       pages: 352,
       stars: 4,
       published: 1932,
-      buy: 'https://www.amazon.com/Continental-Op-Dashiell-Hammett/dp/0679722580',
-      img: 'https://m.media-amazon.com/images/I/71wjqWJek5L._AC_UY327_FMwebp_QL65_.jpg'
     },
     {
       title: 'The Power and the Glory',
@@ -764,8 +641,6 @@ const list = [
       pages: 240,
       stars: 4,
       published: 1940,
-      buy: 'https://www.amazon.com/Power-Glory-Penguin-Classics/dp/0142437301',
-      img: 'https://m.media-amazon.com/images/I/816WQGGKVkL._AC_UY327_FMwebp_QL65_.jpg'
     },
     {
       title: 'So Long, See You Tomorrow',
@@ -776,8 +651,6 @@ const list = [
       pages: 144,
       stars: 4,
       published: 1979,
-      buy: 'https://www.amazon.com/So-Long-See-You-Tomorrow/dp/0679767207',
-      img: 'https://m.media-amazon.com/images/I/71oLYAxj-ZL._AC_UY327_FMwebp_QL65_.jpg'
     },
     {
       title: 'Native Son',
@@ -788,8 +661,6 @@ const list = [
       pages: 544,
       stars: 4.5,
       published: 1940,
-      buy: 'https://www.amazon.com/Native-Perennial-Classics-Richard-Wright/dp/006083756X',
-      img: 'https://m.media-amazon.com/images/I/91StPoS5CqL._AC_UY327_FMwebp_QL65_.jpg'
     },
     {
       title: 'Let Us Now Praise Famous Men',
@@ -800,8 +671,6 @@ const list = [
       pages: 432,
       stars: 4,
       published: 1941,
-      buy: 'https://www.amazon.com/Let-Now-Praise-Famous-Men/dp/0618127496',
-      img: 'https://m.media-amazon.com/images/I/51poPQ6MHAL._AC_UY327_FMwebp_QL65_.jpg'
     },
     {
       title: 'Angle of Repose',
@@ -812,8 +681,6 @@ const list = [
       pages: 672,
       stars: 4.5,
       published: 1971,
-      buy: 'https://www.amazon.com/Angle-Repose-Wallace-Stegner/dp/1101872764',
-      img: 'https://m.media-amazon.com/images/I/91dHlR0W+kL._AC_UY327_FMwebp_QL65_.jpg'
     },
     {
       title: 'The Great Bridge',
@@ -824,8 +691,6 @@ const list = [
       pages: 636,
       stars: 4.5,
       published: 1983,
-      buy: 'https://www.amazon.com/Great-Bridge-Story-Building-Brooklyn/dp/067145711X',
-      img: 'https://m.media-amazon.com/images/I/918WpKdCgoL._AC_UY327_FMwebp_QL65_.jpg'
     },
     {
       title: 'The Dharma Bums',
@@ -836,8 +701,6 @@ const list = [
       pages: 244,
       stars: 4.5,
       published: 1958,
-      buy: 'https://www.amazon.com/Dharma-Bums-Jack-Kerouac/dp/0140042520',
-      img: 'https://m.media-amazon.com/images/I/81crGQ3SJRL._AC_UY327_FMwebp_QL65_.jpg'
     },
     {
       title: 'Lonesome Dove',
@@ -848,8 +711,6 @@ const list = [
       pages: 864,
       stars: 5,
       published: 1985,
-      buy: 'https://www.amazon.com/Lonesome-Dove-Novel-Larry-McMurtry/dp/1439195269',
-      img: 'https://m.media-amazon.com/images/I/51648G4EeqL._AC_UY327_FMwebp_QL65_.jpg'
     },
     {
       title: 'Lolita',
@@ -860,8 +721,6 @@ const list = [
       pages: 317,
       stars: 4,
       published: 1955,
-      buy: 'https://www.amazon.com/Lolita-Vladimir-Nabokov/dp/0679723161',
-      img: 'https://m.media-amazon.com/images/I/61YZuVFUYIL._AC_UY327_FMwebp_QL65_.jpg'
     },
     {
       title: 'Underworld',
@@ -872,8 +731,6 @@ const list = [
       pages: 848,
       stars: 3.5,
       published: 2003,
-      buy: 'https://www.amazon.com/Underworld-Novel-Don-DeLillo/dp/0684848155',
-      img: 'https://m.media-amazon.com/images/I/911TarCyuzL._AC_UY327_FMwebp_QL65_.jpg'
     },
     {
       title: 'The Adventures of Huckleberry Finn',
@@ -884,8 +741,6 @@ const list = [
       pages: 224,
       stars: 4.5,
       published: 1884,
-      buy: 'https://www.amazon.com/Adventures-Huckleberry-Finn-Mark-Twain/dp/0486280616',
-      img: 'https://m.media-amazon.com/images/I/41KVIJg8JBL._AC_UY327_FMwebp_QL65_.jpg'
     },
     {
       title: 'The Orphan Master\'s Son',
@@ -896,8 +751,6 @@ const list = [
       pages: 442,
       stars: 4,
       published: 2012,
-      buy: 'https://www.amazon.com/Orphan-Masters-Son-Pulitzer-Fiction/dp/0812982622',
-      img: 'https://m.media-amazon.com/images/I/91CvgOlLjHL._AC_UY327_FMwebp_QL65_.jpg'
     },
     {
       title: 'Billy Lynn\'s Long Halftime Walk',
@@ -908,8 +761,6 @@ const list = [
       pages: 320,
       stars: 4,
       published: 2012,
-      buy: 'https://www.amazon.com/Billy-Lynns-Long-Halftime-Walk/dp/0060885610',
-      img: 'https://m.media-amazon.com/images/I/51vuGBmqxYL._AC_UY327_FMwebp_QL65_.jpg'
     },
     {
       title: 'Let the Great World Spin',
@@ -920,8 +771,6 @@ const list = [
       pages: 375,
       stars: 4,
       published: 2009,
-      buy: 'https://www.amazon.com/Let-Great-World-Spin-Novel/dp/0812973992',
-      img: 'https://m.media-amazon.com/images/I/811D3LwuvtL._AC_UY327_FMwebp_QL65_.jpg'
     },
     {
       title: 'The Road',
@@ -932,8 +781,6 @@ const list = [
       pages: 287,
       stars: 4,
       published: 2006,
-      buy: 'https://www.amazon.com/Road-Cormac-McCarthy/dp/0307387895',
-      img: 'https://m.media-amazon.com/images/I/71IJ1HC2a3L._AC_UY327_FMwebp_QL65_.jpg'
     },
     {
       title: 'The Son',
@@ -944,8 +791,6 @@ const list = [
       pages: 592,
       stars: 4,
       published: 2014,
-      buy: 'https://www.amazon.com/Son-Philipp-Meyer/dp/0062120409',
-      img: 'https://m.media-amazon.com/images/I/51cV7-VGuqL._AC_UY327_FMwebp_QL65_.jpg'
     },
     {
       title: 'Dune',
@@ -956,8 +801,6 @@ const list = [
       pages: 896,
       stars: 4.5,
       published: 1965,
-      buy: 'https://www.amazon.com/Dune-Frank-Herbert/dp/0441172717',
-      img: 'https://m.media-amazon.com/images/I/91EWCXXofLL._AC_UY327_FMwebp_QL65_.jpg'
     },
     {
       title: '1Q84',
@@ -968,8 +811,6 @@ const list = [
       pages: 1184,
       stars: 4,
       published: 2013,
-      buy: 'https://www.amazon.com/1Q84-Vintage-International-Haruki-Murakami/dp/0307476464',
-      img: 'https://m.media-amazon.com/images/I/41FdmYnaNuL._AC_UY327_FMwebp_QL65_.jpg'
     },
     {
       title: 'A Brief History of 7 Killings',
@@ -980,8 +821,6 @@ const list = [
       pages: 704,
       stars: 4,
       published: 2015,
-      buy: 'https://www.amazon.com/Brief-History-Seven-Killings-Novel/dp/1594633940',
-      img: 'https://m.media-amazon.com/images/I/81aggXvHGjL._AC_UY327_FMwebp_QL65_.jpg'
     },
     {
       title: 'The Electric Kool-Aid Acid Test',
@@ -992,8 +831,6 @@ const list = [
       pages: 432,
       stars: 4,
       published: 1968,
-      buy: 'https://www.amazon.com/Electric-Kool-Aid-Acid-Test/dp/031242759X',
-      img: 'https://m.media-amazon.com/images/I/51sdp-DBlWL._AC_UY327_FMwebp_QL65_.jpg'
     },
     {
       title: 'Blitzed',
@@ -1004,8 +841,6 @@ const list = [
       pages: 368,
       stars: 4.5,
       published: 2017,
-      buy: 'https://www.amazon.com/Blitzed-Drugs-Germany-Norman-Ohler/dp/0141983167',
-      img: 'https://m.media-amazon.com/images/I/71uyG39lK6L._AC_UY327_FMwebp_QL65_.jpg'
     },
     {
       title: 'Pimp: The Story of My Life',
@@ -1016,8 +851,6 @@ const list = [
       pages: 320,
       stars: 4.5,
       published: 2011,
-      buy: 'https://www.amazon.com/Pimp-Story-Life-Iceberg-Slim/dp/1451617135',
-      img: 'https://m.media-amazon.com/images/I/71wTLXA-9PL._AC_UY327_FMwebp_QL65_.jpg'
     },
     {
       title: 'Shantaram',
@@ -1028,8 +861,6 @@ const list = [
       pages: 944,
       stars: 4.5,
       published: 2005,
-      buy: 'https://www.amazon.com/Shantaram-Novel-Gregory-David-Roberts/dp/0312330537',
-      img: 'https://m.media-amazon.com/images/I/8126GtH927L._AC_UY327_FMwebp_QL65_.jpg'
     },
     {
       title: 'East of Eden',
@@ -1040,8 +871,6 @@ const list = [
       pages: 691,
       stars: 4.5,
       published: 1952,
-      buy: 'https://www.amazon.com/East-Penguin-Twentieth-Century-Classics/dp/0140186395',
-      img: 'https://m.media-amazon.com/images/I/91M+oA-BJNL._AC_UY327_FMwebp_QL65_.jpg'
     },
     {
       title: 'News of a Kidnapping',
@@ -1052,8 +881,6 @@ const list = [
       pages: 304,
       stars: 4.5,
       published: 2008,
-      buy: 'https://www.amazon.com/Kidnapping-Vintage-International-Gabriel-M%C3%A1rquez/dp/1400034930',
-      img: 'https://m.media-amazon.com/images/I/81+fMn6rBYL._AC_UY327_FMwebp_QL65_.jpg'
     },
     {
       title: 'Black Wings Has My Angel',
@@ -1064,8 +891,6 @@ const list = [
       pages: 224,
       stars: 4.5,
       published: 1953,
-      buy: 'https://www.amazon.com/Black-Wings-Angel-Review-Classics/dp/1590179161',
-      img: 'https://m.media-amazon.com/images/I/716KcM6oEfL._AC_UY327_FMwebp_QL65_.jpg'
     },
     {
       title: 'The Stand',
@@ -1076,8 +901,6 @@ const list = [
       pages: 1200,
       stars: 4.5,
       published: 1978,
-      buy: 'https://www.amazon.com/Stand-Stephen-King/dp/0307947300',
-      img: 'https://m.media-amazon.com/images/I/41EX9TXcUOL._AC_UY327_FMwebp_QL65_.jpg'
     },
     {
       title: 'There There',
@@ -1088,8 +911,6 @@ const list = [
       pages: 304,
       stars: 4,
       published: 2019,
-      buy: 'https://www.amazon.com/There-Tommy-Orange/dp/0525436146/',
-      img: 'https://m.media-amazon.com/images/I/91sek9O55TL._AC_UY327_FMwebp_QL65_.jpg'
     },
     {
       title: 'News of the World',
@@ -1100,8 +921,6 @@ const list = [
       pages: 240,
       stars: 4.5,
       published: 2017,
-      buy: 'https://www.amazon.com/News-World-Paulette-Jiles/dp/0062409212/',
-      img: 'https://m.media-amazon.com/images/I/91Zhybqb6+L._AC_UY327_FMwebp_QL65_.jpg'
     },
     {
       title: 'The Magus',
@@ -1112,8 +931,6 @@ const list = [
       pages: 672,
       stars: 4,
       published: 1985,
-      buy: 'https://www.amazon.com/Magus-Novel-John-Fowles/dp/0440351626/',
-      img: 'https://m.media-amazon.com/images/I/91mSKUIQRWL._AC_UY327_FMwebp_QL65_.jpg'
     },
     {
       title: 'The World According to Garp',
@@ -1124,8 +941,6 @@ const list = [
       pages: 624,
       stars: 4.5,
       published: 1990,
-      buy: 'https://www.amazon.com/World-According-Garp-John-Irving/dp/034536676X',
-      img: 'https://images-na.ssl-images-amazon.com/images/I/51qpAcx3cRL._SX302_BO1,204,203,200_.jpg'
     },
     {
       title: 'The Overstory',
@@ -1136,8 +951,6 @@ const list = [
       pages: 512,
       stars: 4.5,
       published: 2018,
-      buy: 'https://www.amazon.com/Overstory-Novel-Richard-Powers/dp/039335668X/',
-      img: 'https://images-na.ssl-images-amazon.com/images/I/51t47tHiewL._SX331_BO1,204,203,200_.jpg'
     },
     {
       title: 'The Underground Railroad',
@@ -1148,8 +961,6 @@ const list = [
       pages: 336,
       stars: 4,
       published: 2016,
-      buy: 'https://www.amazon.com/Underground-Railroad-Novel-Colson-Whitehead/dp/0345804325',
-      img: 'https://images-na.ssl-images-amazon.com/images/I/51B4-CSCeaL._SX322_BO1,204,203,200_.jpg'
     },
     {
       title: 'The Brief Wondrous Life of Oscar Wao',
@@ -1160,8 +971,6 @@ const list = [
       pages: 339,
       stars: 4,
       published: 2008,
-      buy: 'https://www.amazon.com/Brief-Wondrous-Life-Oscar-Wao/dp/1594483299',
-      img: 'https://images-na.ssl-images-amazon.com/images/I/51lPJDcI5UL._SX318_BO1,204,203,200_.jpg'
     },
     {
       title: 'The Mastermind',
@@ -1172,8 +981,6 @@ const list = [
       pages: 480,
       stars: 4,
       published: 2018,
-      buy: 'https://www.amazon.com/Mastermind-Drugs-Empire-Murder-Betrayal/dp/0399590412',
-      img: 'https://images-na.ssl-images-amazon.com/images/I/41Yn4cEd46L._SX320_BO1,204,203,200_.jpg'
     },
     {
       title: 'The Kite Runner',
@@ -1184,8 +991,6 @@ const list = [
       pages: 400,
       stars: 4.5,
       published: 2013,
-      buy: 'https://www.amazon.com/Kite-Runner-Khaled-Hosseini/dp/159463193X',
-      img: 'https://images-na.ssl-images-amazon.com/images/I/51vRNqL61aL._SX318_BO1,204,203,200_.jpg'
     },
     {
       title: 'Middlesex',
@@ -1196,8 +1001,6 @@ const list = [
       pages: 544,
       stars: 4.5,
       published: 2013,
-      buy: 'https://www.amazon.com/Middlesex-Novel-Oprahs-Book-Club/dp/0312427735',
-      img: 'https://images-na.ssl-images-amazon.com/images/I/41HHxQGKa3L._SX331_BO1,204,203,200_.jpg'
     },
     {
       title: 'Sex Money Murder',
@@ -1208,8 +1011,6 @@ const list = [
       pages: 432,
       stars: 5,
       published: 2018,
-      buy: 'https://www.amazon.com/Sex-Money-Murder-Story-Betrayal/dp/0393244482',
-      img: 'https://images-na.ssl-images-amazon.com/images/I/31zhliv4rLL._SX324_BO1,204,203,200_.jpg'
     },
     {
       title: 'Dodgers',
@@ -1220,8 +1021,6 @@ const list = [
       pages: 304,
       stars: 4.5,
       published: 2017,
-      buy: 'https://www.amazon.com/Dodgers-Novel-Bill-Beverly/dp/1101903759',
-      img: 'https://images-na.ssl-images-amazon.com/images/I/41DyJ9%2B6-rL._SX322_BO1,204,203,200_.jpg'
     },
     {
       title: 'The Stranger in the Woods: The Extraordinary Story of the Last True Hermit',
@@ -1232,8 +1031,6 @@ const list = [
       pages: 224,
       stars: 4.5,
       published: 2017,
-      buy: 'https://www.amazon.com/Stranger-Woods-Extraordinary-Story-Hermit/dp/1101875682',
-      img: 'https://images-na.ssl-images-amazon.com/images/I/41DyJ9%2B6-rL._SX322_BO1,204,203,200_.jpg'
     },
     {
       title: 'Catch-22',
@@ -1244,8 +1041,6 @@ const list = [
       pages: 544,
       stars: 4.5,
       published: 1961,
-      buy: 'https://www.amazon.com/Catch-22-50th-Anniversary-Joseph-Heller/dp/1451626657/ref=sr_1_1?dchild=1&keywords=catch+22&qid=1594221337&s=books&sr=1-1',
-      img: 'https://images-na.ssl-images-amazon.com/images/I/41DyJ9%2B6-rL._SX322_BO1,204,203,200_.jpg'
     },
     {
       title: 'The Power of the Dog',
@@ -1256,8 +1051,6 @@ const list = [
       pages: 560,
       stars: 4.5,
       published: 2006,
-      buy: 'https://www.amazon.com/Power-Dog-Don-Winslow/dp/1400096936/ref=sr_1_2?dchild=1&keywords=the+power+of+the+dog&qid=1594221464&s=books&sr=1-2',
-      img: 'https://images-na.ssl-images-amazon.com/images/I/41DyJ9%2B6-rL._SX322_BO1,204,203,200_.jpg'
     },
     {
       title: 'Bonfire of the Vanities',
@@ -1268,8 +1061,6 @@ const list = [
       pages: 704,
       stars: 4.5,
       published: 1987,
-      buy: 'https://www.amazon.com/Bonfire-Vanities-Tom-Wolfe/dp/0312427573/ref=sr_1_2?crid=TLQRGYNNX53V&dchild=1&keywords=bonfire+of+the+vanities+by+tom+wolfe&qid=1594221623&s=books&sprefix=bonfire+of%2Cstripbooks%2C178&sr=1-2',
-      img: 'https://images-na.ssl-images-amazon.com/images/I/41DyJ9%2B6-rL._SX322_BO1,204,203,200_.jpg'
     },
     {
       title: 'In the Land of Good Living: A Journey to the Heart of Florida',
@@ -1280,8 +1071,6 @@ const list = [
       pages: 320,
       stars: 4.5,
       published: 1987,
-      buy: 'https://www.amazon.com/Land-Good-Living-Journey-Florida/dp/0525521380/ref=sr_1_1?dchild=1&keywords=In+the+Land+of+Good+Living%3A+A+Journey+to+the+Heart+of+Florida&qid=1594222134&s=books&sr=1-1',
-      img: 'https://images-na.ssl-images-amazon.com/images/I/41DyJ9%2B6-rL._SX322_BO1,204,203,200_.jpg'
     },
     {
       title: 'The Nickel Boys',
@@ -1292,8 +1081,6 @@ const list = [
       pages: 224,
       stars: 4.5,
       published: 2020,
-      buy: 'https://www.amazon.com/Nickel-Boys-Novel-Colson-Whitehead/dp/0345804341/ref=sr_1_1?dchild=1&keywords=nickel+boys&sr=8-1',
-      img: 'https://images-na.ssl-images-amazon.com/images/I/41DyJ9%2B6-rL._SX322_BO1,204,203,200_.jpg'
     },
     {
       title: 'Still Life with Woodpecker',
@@ -1304,8 +1091,6 @@ const list = [
       pages: 277,
       stars: 4.5,
       published: 1980,
-      buy: 'https://www.amazon.com/Still-Life-Woodpecker-Tom-Robbins/dp/0553348973/ref=sr_1_1?dchild=1&keywords=Still+Life+with+Woodpecker&qid=1594222484&s=books&sr=1-1',
-      img: 'https://images-na.ssl-images-amazon.com/images/I/41DyJ9%2B6-rL._SX322_BO1,204,203,200_.jpg'
     },
     {
       title: 'Lord of the Flies',
@@ -1316,8 +1101,6 @@ const list = [
       pages: 224,
       stars: 4.5,
       published: 1954,
-      buy: 'https://www.amazon.com/Lord-Flies-William-Golding/dp/0399501487',
-      img: 'https://images-na.ssl-images-amazon.com/images/I/41DyJ9%2B6-rL._SX322_BO1,204,203,200_.jpg'
     },
     {
       title: 'Watchmen',
@@ -1328,8 +1111,6 @@ const list = [
       pages: 416,
       stars: 5,
       published: 1986,
-      buy: 'https://www.amazon.com/Watchmen-2019-Alan-Moore/dp/1779501129/ref=sr_1_3?crid=33EM2JKQYHA1L&dchild=1&keywords=watchmen&qid=1594226158&s=books&sprefix=watch%2Cstripbooks%2C195&sr=1-3',
-      img: 'https://images-na.ssl-images-amazon.com/images/I/41DyJ9%2B6-rL._SX322_BO1,204,203,200_.jpg'
     },
     {
       title: 'Between the World and Me',
@@ -1340,8 +1121,6 @@ const list = [
       pages: 176,
       stars: 4.5,
       published: 2015,
-      buy: 'https://www.amazon.com/Between-World-Me-Ta-Nehisi-Coates/dp/0812993543/ref=tmm_hrd_swatch_0?_encoding=UTF8&qid=&sr=',
-      img: 'https://images-na.ssl-images-amazon.com/images/I/41DyJ9%2B6-rL._SX322_BO1,204,203,200_.jpg'
     },
     {
       title: 'Sophie’s World',
@@ -1352,8 +1131,6 @@ const list = [
       pages: 544,
       stars: 4.5,
       published: 2007,
-      buy: 'https://www.amazon.com/Sophies-World-History-Philosophy-Classics/dp/0374530718/ref=sr_1_2?dchild=1&keywords=sophies+world&qid=1597772719&sr=8-2',
-      img: 'https://images-na.ssl-images-amazon.com/images/I/919mvu2ffVL.jpg'
     },
     {
       title: 'Underland: A Deep Time Journey',
@@ -1364,8 +1141,6 @@ const list = [
       pages: 496,
       stars: 4.5,
       published: 2019,
-      buy: 'https://www.amazon.com/Underland-Deep-Journey-Robert-Macfarlane/dp/0393242145/ref=sr_1_2?dchild=1&keywords=Underland%3A+A+Deep+Time+Journey&qid=1597772918&sr=8-2',
-      img: 'https://images-na.ssl-images-amazon.com/images/I/91Icy+lvixL.jpg'
     },
     {
       title: 'A Gentleman in Moscow',
@@ -1376,8 +1151,6 @@ const list = [
       pages: 480,
       stars: 4.5,
       published: 2019,
-      buy: 'https://www.amazon.com/A-Gentleman-in-Moscow/dp/0143110438/ref=sr_1_2?crid=1QJB81ORKPXKK&dchild=1&keywords=a+gentleman+in+moscow&qid=1597773213&sprefix=a+gentl%2Caps%2C206&sr=8-2',
-      img: 'https://images-na.ssl-images-amazon.com/images/I/913q5f7nocL.jpg'
     },
     {
       title: 'In the Distance',
@@ -1388,8 +1161,6 @@ const list = [
       pages: 240,
       stars: 4,
       published: 2017,
-      buy: 'https://www.amazon.com/Distance-Hernan-Diaz/dp/1566894883/ref=sr_1_1?crid=20O6YDM854HQS&dchild=1&keywords=in+the+distance+by+hernan+diaz&qid=1603902950&sprefix=in+the+distance%2Caps%2C196&sr=8-1',
-      img: 'https://images-na.ssl-images-amazon.com/images/I/81NEKx2OCeL.jpg'
     },
     {
       title: 'The Last of the Mohicans',
@@ -1400,8 +1171,6 @@ const list = [
       pages: 459,
       stars: 4,
       published: 1826,
-      buy: 'https://www.amazon.com/dp/1926444175/ref=cm_sw_r_cp_api_i_TdFLFbF4XTA7J?_encoding=UTF8&psc=1',
-      img: 'https://images-na.ssl-images-amazon.com/images/I/81NEKx2OCeL.jpg'
     },
     {
       title: 'Gold Fame Citrus',
@@ -1412,8 +1181,6 @@ const list = [
       pages: 352,
       stars: 4,
       published: 2016,
-      buy: 'https://www.amazon.com/Gold-Fame-Citrus-Claire-Watkins/dp/1594634246',
-      img: 'https://images-na.ssl-images-amazon.com/images/I/41DyJ9%2B6-rL._SX322_BO1,204,203,200_.jpg'
     },
     {
       title: 'Piranesi',
@@ -1424,8 +1191,6 @@ const list = [
       pages: 272,
       stars: 4,
       published: 2020,
-      buy: 'https://www.amazon.com/Gold-Fame-Citrus-Claire-Watkins/dp/1594634246',
-      img: 'https://images-na.ssl-images-amazon.com/images/I/41DyJ9%2B6-rL._SX322_BO1,204,203,200_.jpg'
     },
     {
       title: 'Project Hail Mary',
@@ -1436,8 +1201,6 @@ const list = [
       pages: 496,
       stars: 4.5,
       published: 2021,
-      buy: 'https://www.amazon.com/Project-Hail-Mary-Andy-Weir/dp/0593135202',
-      img: 'https://images-na.ssl-images-amazon.com/images/I/41DyJ9%2B6-rL._SX322_BO1,204,203,200_.jpg'
     },
       {
       title: 'How to Be an Antiracist',
@@ -1448,8 +1211,6 @@ const list = [
       pages: 320,
       stars: 4.5,
       published: 2019,
-      buy: 'https://www.amazon.com/Project-Hail-Mary-Andy-Weir/dp/0593135202',
-      img: 'https://images-na.ssl-images-amazon.com/images/I/41DyJ9%2B6-rL._SX322_BO1,204,203,200_.jpg'
     },
     {
       title: 'Americanah',
@@ -1460,8 +1221,6 @@ const list = [
       pages: 588,
       stars: 4.5,
       published: 2014,
-      buy: 'https://www.amazon.com/Americanah-Chimamanda-Ngozi-Adichie/dp/0307455920',
-      img: 'https://images-na.ssl-images-amazon.com/images/I/41DyJ9%2B6-rL._SX322_BO1,204,203,200_.jpg'
     },
     {
       title: 'Crossroads',
@@ -1472,8 +1231,6 @@ const list = [
       pages: 592,
       stars: 4.5,
       published: 2021,
-      buy: 'https://www.amazon.com/Crossroads-Novel-Key-All-Mythologies/dp/0374181179',
-      img: 'https://images-na.ssl-images-amazon.com/images/I/41DyJ9%2B6-rL._SX322_BO1,204,203,200_.jpg'
     },
     {
       title: 'The Three-Body Problem',
@@ -1484,8 +1241,6 @@ const list = [
       pages: 416,
       stars: 4.5,
       published: 2016,
-      buy: 'https://www.amazon.com/Crossroads-Novel-Key-All-Mythologies/dp/0374181179',
-      img: 'https://images-na.ssl-images-amazon.com/images/I/41DyJ9%2B6-rL._SX322_BO1,204,203,200_.jpg'
     },
     {
       title: 'Infinite Jest',
@@ -1496,8 +1251,6 @@ const list = [
       pages: 1079,
       stars: 4.5,
       published: 2006,
-      buy: 'https://www.amazon.com/Crossroads-Novel-Key-All-Mythologies/dp/0374181179',
-      img: 'https://images-na.ssl-images-amazon.com/images/I/41DyJ9%2B6-rL._SX322_BO1,204,203,200_.jpg'
     },
     {
       title: 'The Beast',
@@ -1508,20 +1261,36 @@ const list = [
       pages: 224,
       stars: 4.5,
       published: 2014,
-      buy: 'https://www.amazon.com/Crossroads-Novel-Key-All-Mythologies/dp/0374181179',
-      img: 'https://images-na.ssl-images-amazon.com/images/I/41DyJ9%2B6-rL._SX322_BO1,204,203,200_.jpg'
     },
     {
-      title: 'The Passenger + Stella Maris',
+      title: 'The Passenger // Stella Maris',
       author: 'Cormac McCarthy',
       short_desc: "The final tales by one of America's greatest authors.",
       read: false,
       description: "Traversing the American South, from the garrulous barrooms of New Orleans to an abandoned oil rig off the Florida coast, The Passenger is a breathtaking novel of morality and science, the legacy of sin, and the madness that is human consciousness.", 
-      pages: 400/208,
+      pages: 608,
       stars: 4.5,
       published: 2022,
-      buy: 'https://www.amazon.com/Crossroads-Novel-Key-All-Mythologies/dp/0374181179',
-      img: 'https://images-na.ssl-images-amazon.com/images/I/41DyJ9%2B6-rL._SX322_BO1,204,203,200_.jpg'
+    },
+    {
+      title: 'Dark Matter',
+      author: 'Blake Crouch',
+      short_desc: "A brilliant physicist is thrust into a mind-bending journey through alternate realities, battling against time and his own doppelgängers to find his way back home",
+      read: false,
+      description: "Dark Matter is a brilliantly plotted tale that is at once sweeping and intimate, mind-bendingly strange and profoundly human—a relentlessly surprising science-fiction thriller about choices, paths not taken, and how far we’ll go to claim the lives we dream of.", 
+      pages: 368,
+      stars: 4.5,
+      published: 2017,
+    },
+    {
+      title: 'Tree of Smoke',
+      author: 'Denis Johnson',
+      short_desc: "A Pulitzer runner-up: Spies, 'Nam, Sex and Death",
+      read: false,
+      description: "This is the story of Skip Sands—spy-in-training, engaged in Psychological Operations against the Vietcong—and the disasters that befall him thanks to his famous uncle, a war hero known in intelligence circles simply as the Colonel.", 
+      pages: 624,
+      stars: 4,
+      published: 2007,
     },
   ]
   
