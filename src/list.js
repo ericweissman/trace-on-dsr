@@ -1292,6 +1292,26 @@ const list = [
       stars: 4,
       published: 2007,
     },
+    {
+      title: 'Demon Copperhead',
+      author: 'Barbara Kingsolver',
+      short_desc: "Winner of the 2023 Pulitzer Prize in Fiction, Kingsolver’s ambitious “great Appalachian novel” is a gripping story about the irrepressibility of the human spirit, and a forgotten region in an unsentimental country.",
+      read: false,
+      description: "Demon is a voice for the ages—akin to Huck Finn or Holden Caulfield—only even more resilient.", 
+      pages: 560,
+      stars: 4.5,
+      published: 2022,
+    },
+    {
+      title: 'Pathogenesis: A History of the World in Eight Plagues',
+      author: 'Jonathan Kennedy',
+      short_desc: "It is the humble microbe that wins wars and topples empires.",
+      read: false,
+      description: "An excellent study of the impact of bacterial and viral infections which significantly shaped the development of mankind in ways never really associated with before.", 
+      pages: 304,
+      stars: 4.5,
+      published: 2023,
+    },
   ]
   
   export const allBooks = list.map((book, i) => {
