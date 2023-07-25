@@ -1312,6 +1312,16 @@ const list = [
       stars: 4.5,
       published: 2023,
     },
+    {
+      title: 'From Here to Eternity: Traveling the World to Find the Good Death',
+      author: 'Caitlin Doughty',
+      short_desc: "Expands our sense of what it means to treat the dead with \"dignity\".",
+      read: false,
+      description: "Doughty chronicles death practices with tenderheartedness, a technician’s fascination, and an unsentimental respect for grief.", 
+      pages: 272,
+      stars: 5,
+      published: 2017,
+    },
   ]
   
   export const allBooks = list.map((book, i) => {
