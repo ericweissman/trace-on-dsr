@@ -1322,6 +1322,16 @@ const list = [
       stars: 5,
       published: 2017,
     },
+    {
+      title: 'Misery',
+      author: 'Stephen King',
+      short_desc: "Eminem - Stan (Stephen King Remix)",
+      read: false,
+      description: "A famous novelist is held hostage in a remote location by his number one fan.", 
+      pages: 38,
+      stars: 4.5,
+      published: 1987,
+    },
   ]
   
   export const allBooks = list.map((book, i) => {
