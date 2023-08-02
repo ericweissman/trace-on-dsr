@@ -1328,9 +1328,19 @@ const list = [
       short_desc: "Eminem - Stan (Stephen King Remix)",
       read: false,
       description: "A famous novelist is held hostage in a remote location by his number one fan.", 
-      pages: 38,
+      pages: 310,
       stars: 4.5,
       published: 1987,
+    },
+    {
+      title: 'The Land Breakers',
+      author: 'John Ehle',
+      short_desc: "A story of first and last things, of the violence of birth and death, of inescapable sacrifice and the faltering emergence of community.",
+      read: false,
+      description: "The raw and unforgiving world of early American pioneers as they carve out new lives in the untamed Appalachian wilderness.", 
+      pages: 368,
+      stars: 4.5,
+      published: 2015,
     },
   ]
   
