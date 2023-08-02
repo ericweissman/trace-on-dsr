@@ -1342,6 +1342,16 @@ const list = [
       stars: 4.5,
       published: 2015,
     },
+    {
+      title: 'The Night Will Be Long',
+      author: 'Santiago Gamboa',
+      short_desc: "In a remote stretch of southwestern Colombia, Bogota-based journalist Julieta Lezama investigates an ultraviolent confrontation that officials pretend never happened.",
+      read: false,
+      description: "A gripping thriller about corruption deep within the foundations of the Churches in Latin America.", 
+      pages: 368,
+      stars: 4.5,
+      published: 2021,
+    },
   ]
   
   export const allBooks = list.map((book, i) => {
