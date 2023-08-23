@@ -1352,6 +1352,16 @@ const list = [
       stars: 4.5,
       published: 2021,
     },
+    {
+      title: 'Killers of the Flower Moon',
+      author: 'David Grann',
+      short_desc: "Recommended from the boi Evan Ratliff!",
+      read: true,
+      description: "In the 1920s, members of the Osage Native American tribe of Osage County, Oklahoma, are murdered after oil is found on their land, and the FBI decides to investigate.", 
+      pages: 352,
+      stars: 4.5,
+      published: 2017,
+    },
   ]
   
   export const allBooks = list.map((book, i) => {
