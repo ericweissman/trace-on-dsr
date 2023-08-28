@@ -1369,12 +1369,12 @@ const list = [
   });
   
   // Fisher Yates
-  const randomize = (books) => {
-    for (let i = 0; i < books.length - 1; i++) {
-      const randomIndex = Math.floor((Math.random() * (books.length - i))) + i;
-      [books[i], books[randomIndex]] = [books[randomIndex], books[i]];
-    }
-  }
+  // const randomize = (books) => {
+  //   for (let i = 0; i < books.length - 1; i++) {
+  //     const randomIndex = Math.floor((Math.random() * (books.length - i))) + i;
+  //     [books[i], books[randomIndex]] = [books[randomIndex], books[i]];
+  //   }
+  // }
 
   // Sattolo's Algorithm
   function randomize(books) {
