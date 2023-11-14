@@ -1016,7 +1016,7 @@ const list = [
       title: 'Dodgers',
       author: 'Bill Beverly',
       short_desc: "LA gang members sent on a hit - in Wisconsin?!",
-      read: false,
+      read: true,
       description: 'It is the story of a young LA gang member named East, who is sent by his uncle along with some other teenage boys—including East\'s hothead younger brother—to kill a key witness hiding out in Wisconsin. The journey takes East out of a city he\'s never left and into an America that is entirely alien to him, ultimately forcing him to grapple with his place in the world and decide what kind of man he wants to become.',
       pages: 304,
       stars: 4.5,
