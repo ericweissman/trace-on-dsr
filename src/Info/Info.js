@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 
 
 const Info = (props) => {
-  const {title, author, description, id, pages, published, stars, short_desc, remove, img, showInfo, handleChange} = props;
+  const {title, author, description, pages, published, stars, short_desc, showInfo, handleChange} = props;
   const removeBtnStyle = {
     height: '22px',
     width: '22px',
@@ -15,10 +15,6 @@ const Info = (props) => {
   return ReactDOM.createPortal(
     <div className={showInfo ? 'modal' : 'hidden'}>
       <div className="info">
-        <div className="showInfo">
-          <button style={removeBtnStyle} onClick={(event) => handleChange(event)}>
-          </button>
-        </div>
         <h3>{title}</h3>
         <h4>by {author}</h4>
         <div className="basic-info">
@@ -30,7 +26,11 @@ const Info = (props) => {
           <p className="short-desc">{short_desc}</p>
           <p className="long-desc">{description}</p>
         </div>
-      </div>
+          <div className="showInfo">
+            <button style={removeBtnStyle} onClick={(event) => handleChange(event)}>
+            </button>
+          </div>
+        </div>
     </div>,
     document.getElementById('portal-root')
   )

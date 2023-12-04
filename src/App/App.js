@@ -24,6 +24,7 @@ const App = () => {
       />
       <Library 
         library={read}
+        unread={unread}
         isHidden={true}
       />
     </div>
