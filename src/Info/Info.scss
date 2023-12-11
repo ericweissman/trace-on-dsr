@@ -28,12 +28,12 @@
     align-items: center;
     color: white;
 
-  padding: 20px;
-  width: 75%; /* Initial width */
-  max-width: 90%; /* Responsive max-width */
-  flex: 1; /* Flex grow to accommodate content */
-  display: flex;
-  flex-direction: column; /* Stack content vertically */
+    padding: 20px;
+    width: 75%; /* Initial width */
+    max-width: 90%; /* Responsive max-width */
+    flex: 1; /* Flex grow to accommodate content */
+    display: flex;
+    flex-direction: column; /* Stack content vertically */
 
 
     h3 {
