@@ -1432,6 +1432,16 @@ const list = [
       stars: 4.5,
       published: 2016,
     },
+    {
+      title: 'Remainder',
+      author: 'Tom McCarthy',
+      short_desc: "Remainder is about the secret world each of us harbors within, and what might happen if we were granted the power to make it real.",
+      read: false,
+      description: "A man is severely injured in a mysterious accident, receives an outrageous sum in legal compensation, and has no idea what to do with it. Then, one night, an ordinary sight sets off a series of bizarre visions he can’t quite place.",
+      pages: 308,
+      stars: 4.5,
+      published: 2007,
+    },
   ]
   
   export const allBooks = list.map((book, i) => {
