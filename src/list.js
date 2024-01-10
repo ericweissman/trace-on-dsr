@@ -1462,6 +1462,36 @@ const list = [
       stars: 4.4,
       published: 2022,
     },
+    {
+      title: 'Papillon',
+      author: 'Henri Charriere',
+      short_desc: "Henri Charriere, nicknamed Papillon, was convicted in Paris in 1931 for a murder he did not commit.  Sentenced to life imprisonment in the French penal colony, Devils Island, he became obsessed with one goal: escape.",
+      read: false,
+      description: "His flight to freedom remains one of the most incredible feats of human cunning, will, and endurance ever undertaken.",
+      pages: 576,
+      stars: 4.6,
+      published: 1968,
+    },
+    {
+      title: 'Never Let Me Go',
+      author: 'Kazuo Ishiguro',
+      short_desc: "An unforgettable edge-of-your-seat mystery that is at once heartbreakingly tender and morally courageous about what it means to be human.",
+      read: false,
+      description: "A novel about a group of friends who grow up in an idyllic boarding school in the English Countryside. As the friends mature they realize there’s a deeper and unsettling reason for their unusual upbringing, straining their friendships and unearthing their disconcerting reality.",
+      pages: 288,
+      stars: 4.1,
+      published: 2006,
+    },
+    {
+      title: 'Cloudsplitter',
+      author: 'Russell Banks',
+      short_desc: "Deeply researched, brilliantly plotted, and peopled with a cast of unforgettable characters both historical and wholly invented, Cloudsplitter is dazzling in its re-creation of the political and social landscape of our history during the years before the Civil War, when slavery was tearing the country apart. ",
+      read: false,
+      description: "A historical novel about America's first prominent abolitionist, John Brown, chronicling Brown's life from his early days freeing slaves with the Underground Railroad to his untimely demise after unsuccessfully orchestrating a slave rebellion through the lense of his son Owen Brown.",
+      pages: 768,
+      stars: 4.1,
+      published: 1999,
+    },
   ]
   
   export const allBooks = list.map((book, i) => {
