@@ -1492,6 +1492,16 @@ const list = [
       stars: 4.1,
       published: 1999,
     },
+    {
+      title: 'They Shoot Horses, Don\'t They?',
+      author: 'Horace McCoy',
+      short_desc: "Published during the height of the Great Depression, this novel is a gripping and gritty story about desperate Americans driven to the brink via the promise of cash prizes in dance marathon competitions. A stark example of American existentialism.",
+      read: false,
+      description: "The depression of the 1930s led people to desperate measures to survive. The marathon dance craze, which flourished at that time, seemed a simple way for people to earn extra money dancing the hours away for cash, for weeks at a time. But the underside of that craze was filled with a competition and violence unknown to most ballrooms.",
+      pages: 128,
+      stars: 4.4,
+      published: 1935,
+    },
   ]
   
   export const allBooks = list.map((book, i) => {
