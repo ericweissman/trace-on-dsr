@@ -1502,6 +1502,26 @@ const list = [
       stars: 4.4,
       published: 1935,
     },
+    {
+      title: 'The Tiger',
+      author: 'John Vaillant',
+      short_desc: "A true story of vengence and survival in a remote village in Russia's Far East.",
+      read: false,
+      description: "Primal revenge and human resilience, this true story clash between man and beast explores the raw complexities of survival, vengeance, and the untamed wilderness.",
+      pages: 329,
+      stars: 4.5,
+      published: 2010,
+    },
+    {
+      title: 'The Monkey Wrench Gang',
+      author: 'Edward Abbey',
+      short_desc: "The novel that sparked the environmental activism movement.",
+      read: false,
+      description: "A rollicking tale of environmental activism in the American West, where a motley crew of misfits embarks on a wild journey to sabotage industrial encroachments, sparking a comedic yet profound exploration of nature and rebellion.",
+      pages: 480,
+      stars: 4.5,
+      published: 1975,
+    },
   ]
   
   export const allBooks = list.map((book, i) => {
