@@ -1566,4 +1566,15 @@ const list = [
   
   randomize(allBooks);
   
-  // heroku test
+///Console for the bois
+const unread = list.filter(book => !book.read);
+const read = list.filter(book => book.read);
+// const showUnread = console.log("We have NOT read:", unread.map(book => book.title))
+function showUnread(books) {
+  console.log("We have NOT read:", books.map(book => book.title))
+};
+function showPreviouslyRead(books) {
+  console.log("Previously read books:", books.map(book => book.title))
+}
+showUnread(unread);
+showPreviouslyRead(read);
