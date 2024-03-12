@@ -1522,6 +1522,16 @@ const list = [
       stars: 4.5,
       published: 1975,
     },
+    {
+      title: 'Guns, Germs, Steel: The Fates of Human Societies',
+      author: 'Jared M. Diamond',
+      short_desc: "Why did wealth and power become distributed as they now are, rather than in some other way?",
+      read: false,
+      description: "A major advance in our understanding of human societies, Guns, Germs, and Steel chronicles the way that the modern world came to be and stunningly dismantles racially based theories of human history.",
+      pages: 481,
+      stars: 4.5,
+      published: 1999,
+    },
   ]
   
   export const allBooks = list.map((book, i) => {
