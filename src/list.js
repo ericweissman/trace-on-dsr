@@ -1532,6 +1532,26 @@ const list = [
       stars: 4.5,
       published: 1999,
     },
+    {
+      title: "In Pharoah's Army",
+      author: 'Tobias Wolff',
+      short_desc: "Whether he is evoking the blind carnage of the Tet offensive, the theatrics of his fellow Americans, or the unraveling of his own illusions, Wolff brings to this work the same uncanny eye for detail, pitiless candor and mordant wit that made This Boy's Life a modern classic.",
+      read: true,
+      description: "Whether he is evoking the blind carnage of the Tet offensive, the theatrics of his fellow Americans, or the unraveling of his own illusions, Wolff brings to this work the same uncanny eye for detail, pitiless candor and mordant wit that made This Boy's Life a modern classic.",
+      pages: 240,
+      stars: 4.5,
+      published: 1995,
+    },
+    {
+      title: "We Have Always Lived in the Castle",
+      author: 'Shirley Jackson',
+      short_desc: "Shirley Jackson's beloved gothic tale of a peculiar girl named Merricat and her family's dark secret.",
+      read: true,
+      description: "Shirley Jackson's beloved gothic tale of a peculiar girl named Merricat and her family's dark secret.",
+      pages: 146,
+      stars: 4.5,
+      published: 2006,
+    },
   ]
   
   export const allBooks = list.map((book, i) => {
