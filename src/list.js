@@ -1562,6 +1562,16 @@ const list = [
       stars: 4.5,
       published: 1965,
     },
+    {
+      title: "American Psycho",
+      author: 'Bret Easton Ellis',
+      short_desc: " In this modern classic, the acclaimed author explores the incomprehensible depths of madness and captures the insanity of violence in our time or any other.",
+      read: false,
+      description: "Young, handsome, and well educated, Bateman earns his fortune on Wall Street by day while spending his nights in ways we cannot begin to fathom.",
+      pages: 399,
+      stars: 4.4,
+      published: 1991,
+    },
   ]
   
   export const allBooks = list.map((book, i) => {
