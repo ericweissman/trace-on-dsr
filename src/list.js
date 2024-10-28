@@ -1572,6 +1572,16 @@ const list = [
       stars: 4.4,
       published: 1991,
     },
+    {
+      title: "Nothing To See Here",
+      author: 'Kevin Wilson',
+      short_desc: "A most unusual story of parental love, the hazards of child-rearing and the value of friends.",
+      read: false,
+      description: "A moving and uproarious novel about a woman who finds meaning in her life when she begins caring for two children with a remarkable ability.",
+      pages: 288,
+      stars: 4.4,
+      published: 2020,
+    },
   ]
   
   export const allBooks = list.map((book, i) => {
