@@ -1582,6 +1582,16 @@ const list = [
       stars: 4.4,
       published: 2020,
     },
+    {
+      title: "The Will of the Many",
+      author: 'James Islington',
+      short_desc: "A brutal, no-holds-barred epic where ancient magic powers a ruthless society, and every move is a fight for survival.",
+      read: false,
+      description: "At the elite Catenan Academy, a young fugitive uncovers layered mysteries and world-changing secrets.",
+      pages: 640,
+      stars: 4.7,
+      published: 2023,
+    },
   ]
   
   export const allBooks = list.map((book, i) => {
