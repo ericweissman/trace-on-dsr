@@ -1672,6 +1672,16 @@ const list = [
       stars: 4.0,
       published: 2025,
     },
+    {
+      title: "Trust",
+      author: 'Hernan Diaz',
+      short_desc: "Will make you question what you think you know about truth, fiction, and the stories we tell about success and love.",
+      read: false,
+      description: "A masterfully constructed novel that presents four interconnected narratives exploring the nature of wealth, power, and storytelling in 1920s New York. Won Pulitzer.",
+      pages: 416,
+      stars: 4.1,
+      published: 2023,
+    },
   ]
   
   export const allBooks = list.map((book, i) => {
