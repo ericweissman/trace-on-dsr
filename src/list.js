@@ -74,7 +74,7 @@ const list = [
       title: 'The Good War',
       author: 'Studs Terkel',
       short_desc: "All you'll ever need to know about men, women, war, peace, work, home, and just who the people called Americans really are.",
-      read: false,
+      read: true,
       description: '“The Good War”, for which Studs Terkel won the Pulitzer Prize, is a testament not only to the experience of war but to the extraordinary skill of Terkel as interviewer. As always, his subjects are open and unrelenting in their analyses of themselves and their experiences, producing what People magazine has called “a splendid epic history of World War II.” With this volume Terkel expanded his scope to the global and the historical, and the result is a masterpiece of oral history.',
       pages: 608,
       stars: 4.5,
@@ -1603,16 +1603,6 @@ const list = [
       published: 2025,
     },
     {
-      title: "Atavists",
-      author: 'Lydia Millet',
-      short_desc: "In a new collection, Lydia Millet casts a satirical eye on left-wing culture and its array of character types.",
-      read: false,
-      description: "At the elite Catenan Academy, a young fugitive uncovers layered mysteries and world-changing secrets.",
-      pages: 240,
-      stars: 5,
-      published: 2025,
-    },
-    {
       title: "Cosmos",
       author: 'Carl Sagan',
       short_desc: "This classic dives into the past, present, and future of science, dealing with the mind-staggering enormity of the cosmos in which we exist.",
@@ -1671,6 +1661,16 @@ const list = [
       pages: 912,
       stars: 4.3,
       published: 2009,
+    },
+    {
+      title: "God and Sex",
+      author: 'Jon Raymond',
+      short_desc: "What if God spoke to you? Would you hear Him? Would you obey His command?",
+      read: false,
+      description: "A New Age writer whose life is irrevocably changed when a devastating climate disaster forces him to confront his belief in the existence of God.",
+      pages: 256,
+      stars: 4.0,
+      published: 2025,
     },
   ]
   
