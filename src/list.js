@@ -1682,6 +1682,26 @@ const list = [
       stars: 4.1,
       published: 2023,
     },
+    {
+      title: "London Falling",
+      author: 'Patrick Radden Keefe',
+      short_desc: "A Mysterious Death in a Gilded City and a Family's Search for Truth.",
+      read: false,
+      description: "A spellbinding account of a family devastated by the sudden death of their nineteen-year-old son, only to discover that he had created a secret life which drew him into the dangerous criminal underworld that lies beneath Londons glittering surface.",
+      pages: 384,
+      stars: 4.5,
+      published: 2026,
+    },
+    {
+      title: "Chosen Country",
+      author: 'James Pogue',
+      short_desc: "Whoever you are, whatever side you\’re on, if you care about the American west and what\’s happening to it, read this book.",
+      read: false,
+      description: "An extraordinary inside look at America\’s militia movement that shows a country at the crossroads of class, culture, and insurrection.",
+      pages: 304,
+      stars: 4.5,
+      published: 2018,
+    },
   ]
   
   export const allBooks = list.map((book, i) => {
