@@ -1702,6 +1702,16 @@ const list = [
       stars: 4.5,
       published: 2018,
     },
+    {
+      title: "True Grit",
+      author: 'Charles Portis',
+      short_desc: "How to describe the indescribable? Probably the best description I can give of True Grit is that I’ve never given it to any reader — male or female, of any age or sensibility — who didn’t enjoy it",
+      read: false,
+      description: "A gripping, darkly humorous Western, True Grit follows a sharp-witted fourteen-year-old girl who hires a tough, one-eyed U.S. Marshal to track down her father's killer in the lawless Indian Territory.",
+      pages: 240,
+      stars: 4.6,
+      published: 1968,
+    },
   ]
   
   export const allBooks = list.map((book, i) => {
