@@ -1376,7 +1376,7 @@ const list = [
       title: 'The Name of the Wind',
       author: 'Patrick Rothfuss',
       short_desc: "When Fuss asked an avid fantasy reader friend which one fantasy novel he would recommend to our club, this was it.",
-      read: false,
+      read: true,
       description: "It is a tale of sorrow, a tale of survival, a tale of one man’s search for meaning in his universe, and how that search, and the indomitable will that drove it, gave birth to a legend.",
       pages: 722,
       stars: 4.7,
@@ -1711,6 +1711,16 @@ const list = [
       pages: 240,
       stars: 4.6,
       published: 1968,
+    },
+    {
+      title: "James",
+      author: 'Percival Everett',
+      short_desc: "A masterpiece that will help redefine one of the classics of American literature, while also being a major achievement on its own.",
+      read: false,
+      description: "A brilliant and fiercely witty reimagining of Adventures of Huckleberry Finn, James tells the classic river journey from the perspective of the enslaved Jim, revealing a deeply intellectual and resourceful man navigating the dangers of the antebellum South.",
+      pages: 320,
+      stars: 4.6,
+      published: 2024,
     },
   ]
   
