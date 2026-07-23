@@ -1732,6 +1732,36 @@ const list = [
       stars: 4.6,
       published: 2011,
     },
+    {
+      title: "Thrilling Tales of Modern Men",
+      author: 'Danny McBride',
+      short_desc: "Yes, that Danny McBride. In this collection of short stories, the author and auteur takes on the aspirations and the absurdity of the modern male condition.",
+      read: false,
+      description: "I’m the man who has the ball. I’m the man who can throw it faster than fuck. So that is why I am better than everyone in the world.” - Kenny Fucking Powers",
+      pages: 512,
+      stars: 4.6,
+      published: 2026,
+    },
+    {
+      title: "Ingram",
+      author: 'Louis CK',
+      short_desc: "Yes, that Louis CK... Faulkner, McCarthy, Steinbeck and Twain have all been cited as influences for this darkly comic  odyssey about a vulnerable boy wandering through poverty, violence, and grotesque adulthood in search of something like safety in America.",
+      read: false,
+      description: "A suspenseful and often harrowing, yet hopeful odyssey through rural America follows a young drifter in an indifferent world, in this debut novel by comedian Louis C.K.",
+      pages: 288,
+      stars: 4.6,
+      published: 2026,
+    },
+    {
+      title: "Centennial",
+      author: 'James A Michener',
+      short_desc: "Brimming with the glory of America’s past, the story of Colorado—the Centennial State—is manifested through its people.",
+      read: false,
+      description: "n Centennial, trappers, traders, homesteaders, gold seekers, ranchers, and hunters are brought together in the dramatic conflicts that shape the destiny of the legendary West—and the entire country.",
+      pages: 1104,
+      stars: 4.6,
+      published: 2007,
+    },
   ]
   
   export const allBooks = list.map((book, i) => {
